@@ -45,6 +45,7 @@ The following command-line arguments can be used to configure the model and trai
 - `--epochs`: Number of training epochs (default: `100`).
 - `--save_dir`: Directory to save the models (default: `/checkpoints`).
 - `--record_dir`: Directory to save experiment results (default: `records/`).
+
 ## Visual Extractor
 
 In this implementation, the visual extractor model has been changed to `vgg16` from the previous `resnet101`. The visual extractor settings can be modified using:
