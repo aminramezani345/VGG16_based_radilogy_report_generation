@@ -21,10 +21,11 @@ pip install -r requirements.txt
 
 ## Configuration
 
-### Command-Line Arguments
+## Comman Line Argument
 
 The following command-line arguments can be used to configure the model and training process:
 
+```bash
 - `--image_dir`: Path to the directory containing the images.
 - `--ann_path`: Path to the annotation file.
 - `--dataset_name`: Name of the dataset.
