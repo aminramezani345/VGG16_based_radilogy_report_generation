@@ -1,4 +1,4 @@
-# ViT for Radilogy Report generation from Chest X-ray
+# User Interface for implement ViT in Radilogy Report generation from Chest X-ray
 
 This repository contains code for generating medical reports from frontal and lateral chest X-ray images. It utilizes a deep learning model to process the images and generate descriptive reports. In this version, the visual extractor model has been changed from ResNet101 to VGG16, resulting in improved performance.
 
@@ -61,4 +61,15 @@ To start the Flask web application, execute the following command:
 ```bash
 python app.py
 ```
+This will launch a web server on http://127.0.0.1:5000. You can access the application through this URL.
 
+## Usage
+Open the web application in your browser.
+Upload frontal and lateral chest X-ray images.
+The application will process the images and return a generated report.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+## Acknowledgements
+Special thanks to the authors of the TSGET repository for their foundational code and models.
