@@ -19,4 +19,31 @@ git clone <repository_url>
 cd <repository_directory>
 pip install -r requirements.txt
 
+## Configuration
+
+### Command-Line Arguments
+
+The following command-line arguments can be used to configure the model and training process:
+
+- `--image_dir`: Path to the directory containing the images.
+- `--ann_path`: Path to the annotation file.
+- `--dataset_name`: Name of the dataset.
+- `--max_seq_length`: Maximum sequence length of the reports.
+- `--threshold`: Cut-off frequency for the words.
+- `--num_workers`: Number of workers for the data loader.
+- `--batch_size`: Number of samples per batch.
+- `--visual_extractor`: The visual extractor model to be used (default: `vgg16`).
+- `--visual_extractor_pretrained`: Whether to load the pretrained visual extractor (default: `True`).
+- `--d_model`: Dimension of Transformer model (default: `512`).
+- `--d_ff`: Dimension of FeedForward Network (default: `512`).
+- `--num_heads`: Number of attention heads (default: `8`).
+- `--num_layers`: Number of Transformer layers (default: `3`).
+- `--dropout`: Dropout rate for Transformer (default: `0.1`).
+- `--sample_method`: Method for sampling a report (default: `beam_search`).
+- `--beam_size`: Beam size for beam searching (default: `3`).
+- `--temperature`: Temperature for sampling (default: `1.0`).
+- `--epochs`: Number of training epochs (default: `100`).
+- `--save_dir`: Directory to save the models (default: `/checkpoints`).
+- `--record_dir`: Directory to save experiment results (default: `records/`).
+
 
