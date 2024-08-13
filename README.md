@@ -47,4 +47,17 @@ The following command-line arguments can be used to configure the model and trai
 - `--save_dir`: Directory to save the models (default: `/checkpoints`).
 - `--record_dir`: Directory to save experiment results (default: `records/`).
 
+## Visual Extractor
+
+In this implementation, the visual extractor model has been changed to `vgg16` from the previous `resnet101`. The visual extractor settings can be modified using:
+
+- `--visual_extractor`: Set this argument to `vgg16` to use the VGG16 model.
+
+## Running the Application
+
+To start the Flask web application, execute the following command:
+
+```bash
+python app.py
+```
 
