@@ -68,7 +68,7 @@ Open the web application in your browser.
 Upload frontal and lateral chest X-ray images.
 The application will process the images and return a generated report.
 To use the Flask web application described in the README, follow these steps:
-
+0. Download this folder from reference github to your project directory: Modules, Models, Templates, Static
 1. Clone the Repository
 First, clone the repository to your local machine if you haven't done so already:
 
