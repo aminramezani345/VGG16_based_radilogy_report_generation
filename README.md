@@ -67,9 +67,58 @@ This will launch a web server on http://127.0.0.1:5000. You can access the appli
 Open the web application in your browser.
 Upload frontal and lateral chest X-ray images.
 The application will process the images and return a generated report.
+To use the Flask web application described in the README, follow these steps:
 
+1. Clone the Repository
+First, clone the repository to your local machine if you haven't done so already:
+
+```bash
+git clone https://github.com/your-username/your-repository.git
+cd your-repository
+```
+2. Set Up Your Environment
+Ensure you have Python installed. Create and activate a virtual environment:
+
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+```
+3. Install Dependencies
+Install the required Python packages:
+```bash
+pip install flask
+```
+4. Configure the Application
+If you need to modify any configuration settings, you can update the command-line arguments in the app.py file or set them directly in your script.
+
+5. Prepare Your Model
+Ensure you have the trained model checkpoint available. Place your model checkpoint file in the appropriate directory (e.g., ./checkpoints/current_checkpoint.pth).
+
+6. Run the Flask Application
+Start the Flask web server by running:
+
+```bash
+python app.py
+```
+This will start the server on http://127.0.0.1:5000. You should see output indicating the server is running.
+
+7. Access the Web Application
+Open a web browser and navigate to http://127.0.0.1:5000. You should see the main page of the application.
+
+8. Use the Application
+On the web page, you will find an option to upload frontal and lateral chest X-ray images.
+Upload the images you want to process.
+The application will generate a report based on the uploaded images.
+9. View the Results
+After processing, the application will display the generated report, which you can review or use as needed.
+
+10. Shut Down the Server
+To stop the server, you can interrupt the process in your terminal by pressing Ctrl+C.
+
+By following these steps, you should be able to run and use the Flask web application effectively. If you encounter any issues, refer to the error messages in the terminal or consult the project's documentation for further troubleshooting.
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ## Acknowledgements
 Special thanks to the authors of the TSGET repository for their foundational code and models.
+
