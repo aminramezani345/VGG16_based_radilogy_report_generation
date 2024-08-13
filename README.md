@@ -18,7 +18,7 @@ To get started, clone this repository and install the required dependencies:
 git clone <repository_url>
 cd <repository_directory>
 pip install -r requirements.txt
-
+```
 ## Configuration
 
 ## Comman Line Argument
